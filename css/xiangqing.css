@@ -1,0 +1,238 @@
+/*
+* @Author: asus
+* @Date:   2017-10-15 20:41:51
+* @Last Modified by:   asus
+* @Last Modified time: 2017-10-19 19:01:06
+*/
+@import url('base.css');
+/* head开始 */
+.head{
+	width: 100%;
+	height: 1rem;
+	background:#fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.icon{
+	font-family: "iconfont";
+	font-style: normal;
+	font-size: 0.5rem;
+	color:#000;
+	display: flex;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+/* head结束 */
+.yonghu{
+	width: 100%;
+	height:1rem;
+	background:#fff;
+	display: flex;
+	border-bottom: 1px solid #666;
+
+}
+.touxiang{
+	width: 20%;
+	height:99%;
+	margin-left: 0.2rem;
+}
+.touxiang img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.yonghu-zi{
+	font-size: 0.4rem;
+}
+.yonghu-zi1{
+	font-size: 0.3rem;
+}
+/* section开始 */
+/* 1 */
+.section{
+	width: 100%;
+	height: 1rem;
+	background:#fff;
+	display: flex;
+	align-items:flex-end;
+}
+.jia{
+	font-size: 0.5rem;
+	color: red;
+	font-weight: bold;
+	margin-left: 0.2rem;
+}
+/* 2 */
+.section1{
+	width: 100%;
+	height: 1.5rem;
+	background:#fff;
+	display: flex;
+	margin-top: 0.2rem;
+}
+.section-zi{
+	font-size: 0.3rem;
+	margin-left: 0.25rem;
+}
+/* 3 */
+.xiangtu{
+	width: 100%;
+	height: 15rem;
+	background:#fff;
+}
+.chetu{
+	width: 95%;
+    margin-left: 0.15rem;
+	border-bottom: 20px solid #dadada;
+}
+.chetu img{
+	width: 100%;
+	height: 5rem;
+	display: block;
+}
+.chetu:nth-child(3){
+	border-bottom: none;
+}
+/* 4 */
+.section2{
+    width: 100%;
+    height: 1rem;
+    background:#fff;
+    display:flex;
+    margin-top: 0.4rem;
+    align-items: center;
+}
+.icon0{
+	font-family: "iconfont";
+	font-style: normal;
+	font-size: 15px;
+	color: blue;
+	margin-left: 0.2rem;
+}
+.zan{
+	font-size: 0.3rem;
+	margin-left: 3rem;
+	color: #dadada;
+	margin-top: 0.4rem;
+}
+.icon-iconzfb{
+	margin-top: 0.4rem;
+}
+/* 5 */
+.section3{
+    width: 100%;
+    height: 2rem;
+    background:#fff;
+    border-top: 5px solid #dadada;
+    display: flex;
+    align-items: center;
+
+}
+.section3-zi{
+	font-size: 0.35rem;
+	margin-left: 0.3rem;
+}
+.section3-zi1{
+	font-size: 0.3rem;
+}
+.icon1{
+	font-family: "iconfont";
+	font-style: normal;
+	font-size: 15px;
+	color: blue;
+}
+.icon2{
+	font-family: "iconfont";
+	font-style: normal;
+	font-size: 15px;
+	color:green;
+	margin-left: 0.5rem;
+}
+
+/* section结束 */
+/* 留言开始 */
+.liuyan{
+	width: 100%;
+	height: 1rem;
+	background:#fff;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #dadada;
+	border-top: 15px solid #dadada;
+}
+.liuyan-zi{
+	font-size: 0.3rem;
+	margin-left: 0.3rem;
+	font-weight: bold;
+}
+.liuyan1{
+	width: 100%;
+	height: 5.5rem;
+	background:#fff;
+	display: flex;
+	/* border-bottom: 1px solid #dadada; */
+
+}
+.liuyanneirong{
+	width: 15%;
+	height: 0.8rem;
+}
+.liuyanneirong img{
+	/* width: 100%; */
+	height: 100%;
+	display:block;
+	margin-top: 0.2rem;
+	margin-left: 0.3rem;
+}
+.liuyan-zi2{
+	font-size: 0.3rem;
+	margin-top: 0.7rem;
+	margin-left: 0.6rem;
+}
+.liuyan-zi1{
+	font-size: 0.3rem;
+
+}
+/* 留言结束 */
+/* 项目栏开始 */
+.tab{
+	width: 100%;
+	height:1rem;
+	background:#f4bb0f;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+    position: fixed;
+    bottom: 0;
+}
+.tab-1{
+	width: 15%;
+	height: 0.6rem;
+	/* background: pink;
+ */	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.icon5{
+	font-family: "iconfont";
+	font-style: normal;
+	font-size: 20px;
+	color:#ae14ad;
+	display: flex;
+
+}
+.icon-zi{
+	width: 100%;
+	height: 0.2rem;
+	/* background: pink; */
+	font-size: 0.2rem;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+/* 项目栏结束 */
+
+

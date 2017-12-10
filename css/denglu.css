@@ -1,0 +1,141 @@
+/*
+* @Author: asus
+* @Date:   2017-10-14 21:02:35
+* @Last Modified by:   asus
+* @Last Modified time: 2017-10-19 18:49:32
+*/
+@import url('base.css');
+/* 开始 */
+.head{
+	width: 100%;
+	height:1.5rem;
+	background:#fff;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+}
+.hi{
+	width: 100%;
+	height: 0.6rem;
+	background:#fff;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	font-weight: bold;
+}
+.hi1{
+	font-size: 0.3rem;
+	margin-bottom: 1rem;
+
+}
+.tubiao{
+	width: 100%;
+	height: 2rem;
+	background:#fff;
+	justify-content: center;
+	display: flex;
+	border-bottom: 1px solid #dadada;
+}
+.shouji{
+	width: 80%;
+	height: 1rem;
+	background:#e8140f;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	border-radius: 10px;
+	margin-left: 10%;
+	color: white;
+	margin-top: 30px;
+	cursor: pointer;
+	flex-wrap: wrap;
+}
+.shoujitaobao{
+	font-size: 0.3rem;
+	color: white;
+}
+.kuaisudenglu{
+	font-size: 0.25rem;
+	color: white;
+}
+.zhifu{
+	width: 80%;
+	height: 1rem;
+	background:#230fe8;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	border-radius: 10px;
+	margin-left: 10%;
+	margin-top: 30px;
+	color: white;
+    cursor: pointer;
+}
+.zhifubao{
+	font-size: 0.3rem;
+	color: white;
+}
+.zhanghao{
+	width: 80%;
+	height: 1rem;
+	background:#c7c2c2;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	border-radius: 10px;
+	margin-left: 10%;
+	margin-top: 30px;
+	border: 1px solid #dadada;
+	cursor: pointer;
+}
+.mima{
+	font-size: 0.3rem;
+	color:black;
+}
+/* 结束 */
+/* 项目栏开始 */
+.tab{
+	width: 100%;
+	height:1rem;
+	background:#f4bb0f;
+	display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+}
+.tab-1{
+	width: 15%;
+	height: 0.6rem;
+	/* background: pink;
+ */	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.icon4{
+	font-family: "iconfont";
+	font-style: normal;
+	font-size: 20px;
+	color:#ae14ad;
+	display: flex;
+	margin-top: 0.2rem;
+}
+.icon-zi{
+	width: 100%;
+	height: 0.2rem;
+	/* background: pink; */
+	font-size: 0.2rem;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+/* 项目栏结束 */
+
+
+
+
+
+
+
+

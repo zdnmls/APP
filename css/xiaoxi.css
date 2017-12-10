@@ -1,0 +1,202 @@
+/*
+* @Author: asus
+* @Date:   2017-10-14 20:57:31
+* @Last Modified by:   asus
+* @Last Modified time: 2017-10-19 21:55:19
+*/
+@import url('base.css');
+/* 顶栏开始 */
+.xiaoxi{
+	width: 100%;
+	height: 0.9rem;
+	background:#dadada;
+	display: flex;
+	justify-content: center;
+    font-size: 0.4rem;
+    align-items: center;
+}
+/* 顶栏结束 */
+/* 活动消息开始 */
+.huodong{
+	width: 100%;
+	height: 1.5rem;
+	background:#fff;
+	display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    border-bottom: 1px solid #dadada;
+}
+.icon{
+	font-family: "iconfont";
+	font-style: normal;
+	font-size: 1.2rem;
+	color:#f102b5;
+	display: flex;
+	margin-left: 0.5rem;
+}
+.huodong-zi{
+	font-size: 0.4rem;
+	margin-left: 0.5rem;
+	/* width: 100%; */
+
+}
+.huodong-zi1{
+	font-size: 0.25rem;
+}
+.huodong-zi{
+	font-size: 0.3rem;
+}
+.shijian{
+	font-size: 0.2rem;
+
+}
+/* 活动消息结束 */
+/* 通知开始 */
+.tongzhi{
+	width: 100%;
+	height: 1.5rem;
+	background:#fff;
+	display: flex;
+    align-items: center;
+    border-bottom: 1px solid #dadada;
+}
+.tongzhi-zi{
+	font-size: 0.4rem;
+	margin-left: 0.5rem;
+	/* width: 100%; */
+
+}
+.icon1{
+	font-family: "iconfont";
+	font-style: normal;
+	font-size: 1.2rem;
+	color:#f102b5;
+	display: flex;
+	margin-left: 0.5rem;
+	color: #e617ee;
+}
+.tongzhi-zi1{
+	font-size: 0.25rem;
+}
+.tongzhi-zi{
+	font-size: 0.3rem;
+}
+.shijian{
+	font-size: 0.2rem;
+
+}
+/* 通知结束 */
+/* 小鱼开始 */
+.xiaoyu{
+	width: 100%;
+	height: 1.5rem;
+	background:#fff;
+	display: flex;
+    align-items: center;
+    border-bottom: 1px solid #dadada;
+}
+.xiaoyu-zi{
+	font-size: 0.4rem;
+	margin-left: 0.5rem;
+	/* width: 100%; */
+
+}
+.icon2{
+	font-family: "iconfont";
+	font-style: normal;
+	font-size: 1.2rem;
+	color:#f102b5;
+	display: flex;
+	margin-left: 0.5rem;
+	color: #e8f017;
+}
+.xiaoyu-zi1{
+	font-size: 0.25rem;
+}
+.xiaoyu-zi{
+	font-size: 0.3rem;
+}
+.shijian{
+	font-size: 0.2rem;
+
+}
+
+/* 小鱼结束 */
+/* 白开水开始 */
+.baikaishui{
+	width: 100%;
+	height: 1.5rem;
+	background:#fff;
+	display: flex;
+    align-items: center;
+    border-bottom: 1px solid #dadada;
+}
+.baikaishui-zi{
+	font-size: 0.4rem;
+	margin-left: 0.5rem;
+	/* width: 100%; */
+
+}
+.icon3{
+	font-family: "iconfont";
+	font-style: normal;
+	font-size: 1.2rem;
+	color:#f102b5;
+	display: flex;
+	margin-left: 0.5rem;
+	color: #dd1041;
+}
+.baikaishui-zi1{
+	font-size: 0.25rem;
+}
+.baikaishui-zi{
+	font-size: 0.3rem;
+}
+.shijian{
+	font-size: 0.2rem;
+
+}
+/* 白开水结束 */
+/* 项目栏开始 */
+.tab{
+	width: 100%;
+	height:1rem;
+	background:#f4bb0f;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+}
+.tab-1{
+	width: 15%;
+	height: 0.6rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.icon4{
+	font-family: "iconfont";
+	font-style: normal;
+	font-size: 20px;
+	color:#ae14ad;
+	display: flex;
+}
+.icon-zi{
+	width: 100%;
+	height: 0.2rem;
+	/* background: pink; */
+	font-size: 0.2rem;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+/* 项目栏结束 */
+
+
+
+
+
+
+

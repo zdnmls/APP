@@ -1,0 +1,471 @@
+/*
+* @Author: asus
+* @Date:   2017-10-14 20:57:31
+* @Last Modified by:   asus
+* @Last Modified time: 2017-10-22 13:58:32
+*/
+@import url('base.css');
+/* header开始 */
+.head{
+	width: 100%;
+	height:2rem;
+	background:#fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	justify-content: space-around;
+    border-bottom: 1px solid #dadada;
+}
+.head-zuo{
+	font-size: 0.3rem;
+
+}
+.zuo-zi{
+	font-size: 0.45rem;
+	color: black;
+    font-weight:bold;
+}
+.head-you{
+	display: flex;
+
+}
+.icon{
+	font-family: "iconfont";
+	font-style: normal;
+	font-size: 0.5rem;
+	color:#000;
+	display: flex;
+	margin-left: 0.5rem;
+}
+/* header结束 */
+/* 大家都在看开始 */
+/* 1 */
+.dajia{
+	width: 100%;
+	height: 1rem;
+	background:#fff;
+	display: flex;
+	font-size: 0.35rem;
+	align-items: center;
+	margin-left: 0.4rem;
+}
+.dajia-tu{
+	width: 100%;
+	height: 4rem;
+	background:#fff;
+	display: flex;
+	justify-content: space-around;
+}
+.tu{
+	width: 49%;
+	height: 100%;
+	margin-left:18px;
+}
+.tu img{
+	display:block;
+	width: 100%;
+	height: 100%;
+
+}
+.dajia-zi{
+	width: 90%;
+	height: 1rem;
+	background:#fff;
+	display: flex;
+	font-size: 0.25rem;
+	margin-left: 0.4rem;
+	align-items: center;
+
+}
+.jiage{
+	width: 100%;
+	height: 0.6rem;
+	font-size: 0.3rem;
+	color: red;
+	font-weight: bold;
+	margin-left: 0.4rem;
+}
+.jinyutang{
+	width: 95%;
+	height: 1rem;
+	/* background: gold; */
+	display: flex;
+	margin-left: 0.35rem;
+	border: 1.5px solid #dadada;
+	margin-bottom: 0.3rem;
+}
+.yutang-tu {
+	width: 20%;
+	height:0.99rem;
+
+}
+.yutang-tu img{
+    width: 100%;
+    height: 97%;
+    display: block;
+}
+.yutang-zi{
+	font-size: 0.25rem;
+}
+.yutang-zi1{
+	font-size: 0.2rem;
+}
+.jin{
+	width: 15%;
+	height: 0.4rem;
+	display:flex;
+	font-size: 0.2rem;
+	margin-top: 0.3rem;
+	margin-left: 2.2rem;
+	margin-right: 0.1rem;
+	border: 1px solid black;
+	align-items: center;
+	justify-content: center;
+}
+/* 2 */
+.dajia-tu1{
+	width: 100%;
+	height: 4rem;
+	background:#fff;
+	display: flex;
+	justify-content: space-around;
+	/* border-top: 30px solid #dadada; */
+	margin-left: 0.2rem;
+}
+.tu1{
+	width: 49%;
+	height: 100%;
+}
+.tu1 img{
+	display:block;
+	width: 100%;
+	height: 100%;
+
+}
+.dajia-zi1{
+	width: 90%;
+	height: 1rem;
+	background:#fff;
+	display: flex;
+	font-size: 0.3rem;
+	margin-left: 0.4rem;
+	align-items: center;
+
+}
+.jiage1{
+	width: 100%;
+	height: 0.6rem;
+	font-size: 0.3rem;
+	color: red;
+	font-weight: bold;
+	margin-left: 0.4rem;
+}
+.jinyutang1{
+	width: 95%;
+	height: 1rem;
+	/* background: gold; */
+	display: flex;
+	margin-left: 0.4rem;
+	border: 1px solid #dadada;
+	margin-bottom: 0.3rem;
+}
+.yutang-tu1 {
+	width: 20%;
+	height:0.95rem;
+
+}
+.yutang-tu1 img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.yutang-zi{
+	font-size: 0.35rem;
+}
+.yutang-zi1{
+	font-size: 0.3rem;
+}
+.jin1{
+	width: 15%;
+	height: 0.4rem;
+	display:flex;
+	font-size: 0.25rem;
+	margin-top: 0.3rem;
+	margin-left: 1.8rem;
+	margin-right: 0.1rem;
+	border: 1px solid black;
+	align-items: center;
+	justify-content: center;
+}
+/* 3 */
+.dajia-tu2{
+	width: 100%;
+	height: 4rem;
+	background:#fff;
+	display: flex;
+	justify-content: space-around;
+	margin-left: 0.2rem;
+}
+.tu2{
+	width: 49%;
+	height: 100%;
+}
+.tu2 img{
+	display:block;
+	width: 100%;
+	height: 100%;
+
+}
+.dajia-zi2{
+	width: 90%;
+	height: 1rem;
+	background:#fff;
+	display: flex;
+	font-size: 0.3rem;
+	margin-left: 0.4rem;
+	align-items: center;
+
+}
+.jiage2{
+	width: 100%;
+	height: 0.6rem;
+	font-size: 0.3rem;
+	color: red;
+	font-weight: bold;
+	margin-left: 0.4rem;
+}
+.jinyutang2{
+	width: 95%;
+	height: 1rem;
+	/* background: gold; */
+	display: flex;
+	margin-left: 0.4rem;
+	border: 1px solid #dadada;
+	margin-bottom: 0.3rem;
+
+}
+.yutang-tu2 {
+	width: 20%;
+	height:0.95rem;
+
+}
+.yutang-tu2 img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.yutang-zi{
+	font-size: 0.35rem;
+}
+.yutang-zi1{
+	font-size: 0.3rem;
+}
+.jin2{
+	width: 15%;
+	height: 0.4rem;
+	display:flex;
+	font-size: 0.25rem;
+	margin-top: 0.3rem;
+	margin-left: 1.5rem;
+	margin-right: 0.1rem;
+	border: 1px solid black;
+	align-items: center;
+	justify-content: center;
+}
+/* 4 */
+.dajia-tu3{
+	width: 100%;
+	height: 4rem;
+	background:#fff;
+	display: flex;
+	justify-content: space-around;
+	margin-left: 0.2rem;
+}
+.tu3{
+	width: 49%;
+	height: 100%;
+}
+.tu3 img{
+	display:block;
+	width: 100%;
+	height: 100%;
+
+}
+.dajia-zi3{
+	width: 90%;
+	height: 1rem;
+	background:#fff;
+	display: flex;
+	font-size: 0.3rem;
+	margin-left: 0.4rem;
+	align-items: center;
+
+}
+.jiage3{
+	width: 100%;
+	height: 0.6rem;
+	font-size: 0.3rem;
+	color: red;
+	font-weight: bold;
+	margin-left: 0.4rem;
+}
+.jinyutang3{
+	width: 95%;
+	height: 1rem;
+	/* background: gold; */
+	display: flex;
+	margin-left: 0.4rem;
+	border: 1px solid #dadada;
+	margin-bottom: 0.3rem;
+}
+.yutang-tu3 {
+	width: 20%;
+	height:0.95rem;
+
+}
+.yutang-tu3 img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.yutang-zi{
+	font-size: 0.35rem;
+}
+.yutang-zi1{
+	font-size: 0.3rem;
+}
+.jin3{
+	width: 15%;
+	height: 0.4rem;
+	display:flex;
+	font-size: 0.25rem;
+	margin-top: 0.3rem;
+	margin-left: 2.2rem;
+	margin-right: 0.1rem;
+	border: 1px solid black;
+	justify-content: center;
+}
+/* 5 */
+.dajia-tu4{
+	width: 100%;
+	height: 4rem;
+	background:#fff;
+	display: flex;
+	justify-content: space-around;
+	margin-left: 0.2rem;
+}
+.tu4{
+	width: 100%;
+	height: 99.9%;
+}
+.tu4 img{
+	display:block;
+	width: 100%;
+	height: 100%;
+
+}
+.dajia-zi4{
+	width: 90%;
+	height: 1rem;
+	background:#fff;
+	display: flex;
+	font-size: 0.3rem;
+	margin-left: 0.4rem;
+	align-items: center;
+
+}
+.jiage4{
+	width: 100%;
+	height: 0.6rem;
+	font-size: 0.3rem;
+	color: red;
+	font-weight: bold;
+	margin-left: 0.4rem;
+}
+.jinyutang4{
+	width: 95%;
+	height: 1rem;
+	/* background: gold; */
+	display: flex;
+	margin-left: 0.4rem;
+	border: 1px solid #dadada;
+	margin-bottom: 1.5rem;
+}
+.yutang-tu4 {
+	width: 20%;
+	height:0.95rem;
+
+}
+.yutang-tu4 img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.yutang-zi{
+	font-size: 0.25rem;
+	margin: 0 auto;
+	padding-top: 0.1rem;
+}
+.yutang-zi1{
+	font-size: 0.25rem;
+}
+.jin4{
+	width: 15%;
+	height: 0.4rem;
+	display:flex;
+	font-size: 0.25rem;
+	margin-top: 0.3rem;
+	margin-left: 2.2rem;
+	margin-right: 0.1rem;
+	border: 1px solid black;
+	align-items: center;
+	justify-content: center;
+}
+/* 大家都在看结束 */
+/* 项目栏开始 */
+.tab{
+	width: 100%;
+	height:1rem;
+	background:#f4bb0f;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.tab-1{
+	width: 15%;
+	height: 0.6rem;
+	/* background: pink;
+ */	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.icon4{
+	font-family: "iconfont";
+	font-style: normal;
+	font-size: 20px;
+	color:#ae14ad;
+	display: flex;
+}
+.icon-zi{
+	width: 100%;
+	height: 0.2rem;
+	/* background: pink; */
+	font-size: 0.2rem;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+/* 项目栏结束 */
+
+
+
+
+
+
+
+
+
